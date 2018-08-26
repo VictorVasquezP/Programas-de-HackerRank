@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(int argc, char *argv[]) {
-	{
 		int j, *array, i, suma = 0;
 		scanf("%d", &j);
 		array = (int*) malloc(j*sizeof(int));
@@ -14,7 +13,5 @@ int main(int argc, char *argv[]) {
 		printf("%d\n", suma);
 		free(array);
 		return 0;
-	}
-	return 0;
 }
 
